@@ -1,0 +1,115 @@
+@import url(./components-styles.css);
+
+/* Init */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Variables */
+:root {
+  --font: "Montserrat", sans-serif;
+  --darkBlue: #04142d;
+  --midBlue: #163468;
+  --glossBlue: #122a56;
+  --accentBlue: #01a6ea;
+  --text: #eeeef0;
+  --inspect: solid red 1px;
+}
+
+/* --- MAIN CSS --- */
+
+body {
+  font-family: var(--font);
+  background-image: linear-gradient(
+    90deg,
+    var(--darkBlue) 0%,
+    var(--glossBlue) 40%,
+    var(--darkBlue) 100%
+  );
+  color: var(--text);
+  border: var(--inspect);
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 40px;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 20px;
+  }
+}
+
+main {
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: solid yellow 1px; */
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & h1 {
+    font-size: 1.875rem;
+  }
+}
+
+.btn {
+  display: block;
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 50px;
+  width: 200px;
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accentBlue);
+  text-transform: capitalize;
+  border: 2px solid var(--accentBlue);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms ease;
+
+  .fill-layer {
+    background-color: var(--accentBlue);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 0%;
+    border-radius: 8px;
+    transition: 300ms ease;
+  }
+
+  &:hover {
+    color: var(--darkBlue);
+    .fill-layer {
+      width: 100%;
+    }
+  }
+}
+
+/* --- MOBILE RESPONSIVE --- */
+
+@media screen and (max-width: 450px) {
+  /* some class */
+}

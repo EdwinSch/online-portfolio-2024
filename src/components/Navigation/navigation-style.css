@@ -1,0 +1,23 @@
+nav {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+
+  .links-container {
+    display: flex;
+    gap: 25px;
+
+    .link {
+      color: var(--text);
+      font-size: 1.063rem;
+      font-weight: 600;
+      transition: 250ms ease;
+      text-transform: capitalize;
+
+      &:hover,
+      &:active {
+        color: var(--accentBlue);
+      }
+    }
+  }
+}

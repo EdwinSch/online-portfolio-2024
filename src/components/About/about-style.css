@@ -1,0 +1,31 @@
+.about-container {
+  & h2 {
+    font-size: 46px;
+  }
+
+  & h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--accentBlue);
+  }
+
+  .about-txt {
+    max-width: 600px;
+    margin: 30px 0 50px 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 600px) {
+    & h2 {
+      font-size: 40px;
+    }
+    & h3 {
+      font-size: 26px;
+    }
+    .about-txt {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
