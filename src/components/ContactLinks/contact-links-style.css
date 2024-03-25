@@ -2,6 +2,9 @@
   padding: 20px 0;
   display: flex;
   gap: 20px;
+  animation-name: onLoadY;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
 
   .ext-link {
     display: grid;

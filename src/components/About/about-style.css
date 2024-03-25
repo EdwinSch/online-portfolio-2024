@@ -1,4 +1,8 @@
 .about-container {
+  animation-name: onLoadX;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+
   & h2 {
     font-size: 46px;
   }

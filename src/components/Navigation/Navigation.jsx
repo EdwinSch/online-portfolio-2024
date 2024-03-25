@@ -4,16 +4,16 @@ const Navigation = () => {
   return (
     <nav>
       <ul className="links-container">
-        <Link to={"#homepage"} className="link">
+        <Link to={"#landing"} className="link">
           home
         </Link>
-        <Link to={"/"} className="link">
+        <Link to={"/#experience"} className="link">
           experience
         </Link>
-        <Link to={"/"} className="link">
+        <Link to={"#projects"} className="link">
           projects
         </Link>
-        <Link to={"/"} className="link">
+        <Link to={"#contact"} className="link">
           contact
         </Link>
       </ul>
