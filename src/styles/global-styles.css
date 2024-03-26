@@ -34,7 +34,12 @@ ul {
 
 /* --- MAIN CSS --- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  position: relative;
   font-family: var(--font);
   background-image: linear-gradient(
     90deg,
@@ -53,12 +58,21 @@ body {
   }
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 main {
   min-height: 99vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: solid yellow 1px; */
 }
 
 header {
@@ -69,9 +83,23 @@ header {
   animation-name: onLoadY;
   animation-duration: 800ms;
   animation-timing-function: ease-out;
+  /* border: var(--inspect); */
 
   & h1 {
     font-size: 1.875rem;
+  }
+}
+
+.nav-btn {
+  display: none;
+  font-size: 40px;
+  color: var(--text);
+  background: transparent;
+  border: none;
+
+  @media screen and (max-width: 600px) {
+    display: grid;
+    place-items: center;
   }
 }
 
@@ -129,7 +157,7 @@ header {
 
 @keyframes onLoadX {
   0% {
-    transform: translateX(50px);
+    transform: translateX(200px);
     opacity: 0;
   }
   30% {

@@ -4,18 +4,18 @@ const Navigation = () => {
   return (
     <nav>
       <ul className="links-container">
-        <Link to={"#landing"} className="link">
+        <a href="#landing" className="link">
           home
-        </Link>
-        <Link to={"/#experience"} className="link">
+        </a>
+        <a href="#experience" className="link">
           experience
-        </Link>
-        <Link to={"#projects"} className="link">
+        </a>
+        <a to="#projects" className="link">
           projects
-        </Link>
-        <Link to={"#contact"} className="link">
+        </a>
+        <a to="#contact" className="link">
           contact
-        </Link>
+        </a>
       </ul>
     </nav>
   );
