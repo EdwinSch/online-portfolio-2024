@@ -4,7 +4,7 @@ A collection of some of my recent and older projects, with a mix of stacks. Rang
 
 ### Live Demo
 
-🚀 [Deployed App](https://)
+🚀 [Deployed App](https://front-ed-portfolio.netlify.app/)
 
 #### 💻 Run this project
 
