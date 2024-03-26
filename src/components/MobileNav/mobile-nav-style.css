@@ -1,0 +1,48 @@
+.mobile-nav {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80vw;
+  height: fit-content;
+  background-color: var(--glossBlue);
+  border-radius: 10px;
+  animation-name: pop;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+
+  .btn-holder {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .links-wrapper {
+    margin-top: 20px;
+
+    .link {
+      text-align: center;
+      margin-bottom: 40px;
+      display: block;
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 600;
+      transition: 250ms ease;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      &:hover,
+      &:active {
+        color: var(--accentBlue);
+      }
+    }
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

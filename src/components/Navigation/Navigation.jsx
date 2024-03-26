@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <nav className="links-container">
+    <nav className="desktop-nav">
       <a href="#landing" className="link">
         home
       </a>
@@ -10,9 +10,6 @@ const Navigation = () => {
       <a href="#projects" className="link">
         projects
       </a>
-      {/* <a href="#contact" className="link">
-        contact
-      </a> */}
     </nav>
   );
 };

@@ -66,6 +66,12 @@ body {
   height: 100%;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
 }
 
 #landing {
@@ -92,6 +98,18 @@ header {
 
 .nav-btn {
   display: none;
+  font-size: 40px;
+  color: var(--text);
+  background: transparent;
+  border: none;
+
+  @media screen and (max-width: 600px) {
+    display: grid;
+    place-items: center;
+  }
+}
+
+.close-btn {
   font-size: 40px;
   color: var(--text);
   background: transparent;
