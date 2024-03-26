@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   // Slice projects for features on homepage
-  const featuredProjects = projects.slice(0, 4);
+  const featuredProjects = projects.slice(0, 3);
 
   return (
     <section className="projects-container" id="projects">

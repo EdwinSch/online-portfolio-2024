@@ -60,6 +60,10 @@ import cryptoScr from "./assets/screenshots/cryptodashboard.jpg";
 import scootScr from "./assets/screenshots/scoot.jpg";
 import restaurantFinderScr from "./assets/screenshots/restaurant-finder.jpg";
 import canicasScr from "./assets/screenshots/canicas.jpg";
+import chartScr from "./assets/screenshots/chart.jpg";
+import githubfinderScr from "./assets/screenshots/githubfinder.jpg";
+import trainScr from "./assets/screenshots/train.jpg";
+import passwordScr from "./assets/screenshots/password-generator.jpg";
 
 export const projects = [
   {
@@ -121,5 +125,44 @@ export const projects = [
     stack: [iconReact, iconCss],
     deploy: "https://canicasflavours.com/",
     repo: "https://github.com/EdwinSch/canicas-flavours-2023",
+  },
+  {
+    id: nanoid(),
+    title: "Animated Chart",
+    screenshot: chartScr,
+    description: "A little case study on animation and math calculations.",
+    stack: [iconHtml, iconCss, iconJs],
+    deploy: "https://edwinsch.github.io/expenses-chart-component/",
+    repo: "https://github.com/EdwinSch/expenses-chart-component",
+  },
+  {
+    id: nanoid(),
+    title: "GitHub Finder",
+    screenshot: githubfinderScr,
+    description:
+      "This React project interacts with the GitHub API. Users can search GitHub users by name and view detailed info about personal info and repositories. Showcasing: API usage, components, page routing, context, reducer and dynamic styling.",
+    stack: [iconReact, iconCss, iconApi],
+    deploy: "https://sunny-entremet-05c3ac.netlify.app/",
+    repo: "https://github.com/EdwinSch/react-github-finder",
+  },
+  {
+    id: nanoid(),
+    title: "Train Tickets",
+    screenshot: trainScr,
+    description:
+      "This is a train/metro tickets purchase app for a (mocked) metro line. The user can select departure/destination stations and a date. After purchase the app will show a ticket with the route, price calculated by distance between stations and a QR code to enter the station. Additionally there is a responsive map of the route. Showcasing: form handling and validation, Math functions, state management, context usage, QR codes and dynamic styling with Tailwind CSS.",
+    stack: [iconReact, iconTailwind],
+    deploy: "https://jazzy-heliotrope-9809dc.netlify.app/",
+    repo: "https://github.com/EdwinSch/react-train-tickets-app",
+  },
+  {
+    id: nanoid(),
+    title: "Password Generator",
+    screenshot: passwordScr,
+    description:
+      "This project is a strong random password generator. Users set the length and opt for lowercase, uppercase, numbers an/or symbol combinations. A clipboard functionality is also added.",
+    stack: [iconHtml, iconCss, iconJs],
+    deploy: "https://edwinsch.github.io/password-generator/",
+    repo: "https://github.com/EdwinSch/password-generator",
   },
 ];

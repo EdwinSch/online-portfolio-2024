@@ -48,7 +48,6 @@ body {
     var(--darkBlue) 100%
   );
   color: var(--text);
-  border: var(--inspect);
   margin: 0 auto;
   max-width: 1280px;
   padding: 0 50px;

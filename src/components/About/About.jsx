@@ -6,10 +6,10 @@ const About = () => {
       <h2>Hi I'm Ed.</h2>
       <h3>Front-End Developer</h3>
       <p className="about-txt">
-        &Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iusto,
-        eum nulla ullam temporibus necessitatibus. Autem natus inventore ratione
-        officiis, itaque molestiae eos corrupti minima, in dignissimos, saepe
-        voluptatem totam.
+        Welcome to my journey into the world of front-end development. With a
+        passion for crafting immersive digital experiences, I've embarked on an
+        exciting adventure, pushing the boundaries of creativity and technology
+        to bring ideas to life.
       </p>
       <a href="#projects" className="btn">
         <div className="fill-layer"></div>
