@@ -1,14 +1,10 @@
-## Main header (prj title)
+## Online Portfolio
 
-Project description
+A collection of some of my recent and older projects, with a mix of stacks. Ranging from vanilla to frameworks and tools.
 
 ### Live Demo
 
 🚀 [Deployed App](https://)
-
-#### 🛠️ Build with
-
-- React
 
 #### 💻 Run this project
 
