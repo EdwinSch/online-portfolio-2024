@@ -1,9 +1,11 @@
 import { projects } from "../../data";
 import SingleProject from "../SingleProject/SingleProject";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   // Slice projects for features on homepage
-  const featuredProjects = projects.slice(0, 3);
+  const featuredProjects = projects.slice(0, 4);
 
   return (
     <section className="projects-container" id="projects">
@@ -27,7 +29,18 @@ const Projects = () => {
         {featuredProjects.map((project) => {
           return <SingleProject key={project.id} {...project} />;
         })}
+        <Link
+          className="btn"
+          to={"/projects"}
+          style={{ width: 240, margin: "100px auto" }}
+        >
+          <div className="fill-layer"></div>
+          load more projects
+        </Link>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </section>
   );
 };

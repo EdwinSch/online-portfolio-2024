@@ -10,9 +10,9 @@ const Navigation = () => {
       <a href="#projects" className="link">
         projects
       </a>
-      <a href="#contact" className="link">
+      {/* <a href="#contact" className="link">
         contact
-      </a>
+      </a> */}
     </nav>
   );
 };

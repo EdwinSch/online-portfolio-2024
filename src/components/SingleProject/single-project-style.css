@@ -13,6 +13,7 @@
 
   .screenshot {
     min-width: 500px;
+    max-width: 500px;
     height: 380px;
     object-fit: cover;
     object-position: top;

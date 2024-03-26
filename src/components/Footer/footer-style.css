@@ -1,0 +1,18 @@
+footer {
+  margin-top: 120px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+
+  .intxt-link {
+    color: var(--accentBlue);
+    transition: 250ms ease;
+    cursor: pointer;
+
+    &:hover {
+      color: #53cbff;
+    }
+  }
+}
