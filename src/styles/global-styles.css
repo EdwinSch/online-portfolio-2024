@@ -68,7 +68,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-main {
+#landing {
   min-height: 99vh;
   display: flex;
   flex-direction: column;
