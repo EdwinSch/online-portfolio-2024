@@ -59,6 +59,7 @@ import devjobsScr from "./assets/screenshots/devjobs.jpg";
 import cryptoScr from "./assets/screenshots/cryptodashboard.jpg";
 import scootScr from "./assets/screenshots/scoot.jpg";
 import restaurantFinderScr from "./assets/screenshots/restaurant-finder.jpg";
+import canicasScr from "./assets/screenshots/canicas.jpg";
 
 export const projects = [
   {
@@ -110,5 +111,15 @@ export const projects = [
     stack: [iconReact, iconCss],
     deploy: "https://bright-macaron-7fa43e.netlify.app/",
     repo: "https://github.com/EdwinSch/react-restaurant-finder",
+  },
+  {
+    id: nanoid(),
+    title: "Canicas Flavours",
+    screenshot: canicasScr,
+    description:
+      "Assortment overview for the Canicas Flavours Cava selecion 2023. Dynamic featueres are: toggle product description and filter by brand.",
+    stack: [iconReact, iconCss],
+    deploy: "https://canicasflavours.com/",
+    repo: "https://github.com/EdwinSch/canicas-flavours-2023",
   },
 ];
