@@ -1,0 +1,82 @@
+.single-prj-container {
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 90px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .screenshot {
+    min-width: 500px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+
+    @media screen and (max-width: 600px) {
+      min-width: auto;
+      width: 100%;
+      height: 260px;
+    }
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    & h3 {
+      font-size: 22px;
+      color: var(--accentBlue);
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 20px;
+
+      @media screen and (max-width: 1000px) {
+        width: 500px;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: auto;
+      }
+    }
+
+    .btns-wrapper {
+      display: flex;
+      gap: 20px;
+
+      @media screen and (max-width: 360px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      @media screen and (max-width: 1000px) {
+        justify-content: center;
+      }
+    }
+
+    .stack-used {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      @media screen and (max-width: 1000px) {
+        justify-content: center;
+      }
+
+      .stack-txt {
+        font-weight: 700;
+      }
+      .icon-map {
+        width: 30px;
+      }
+    }
+  }
+}

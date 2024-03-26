@@ -11,10 +11,10 @@ const About = () => {
         officiis, itaque molestiae eos corrupti minima, in dignissimos, saepe
         voluptatem totam.
       </p>
-      <Link to="#projects" className="btn">
+      <a href="#projects" className="btn">
         <div className="fill-layer"></div>
         browse projects
-      </Link>
+      </a>
     </div>
   );
 };

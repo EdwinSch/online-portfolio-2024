@@ -6,13 +6,11 @@ const ContactLinks = () => {
       <a
         className="ext-link"
         href="mailto:edwinschutjes@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="to mail"
       >
-        <FaPaperPlane
-          className="icon"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
+        <FaPaperPlane className="icon" />
       </a>
       <a
         className="ext-link"

@@ -11,5 +11,19 @@
   .projects-txt {
     font-size: 18px;
     line-height: 24px;
+
+    .intxt-link {
+      color: var(--accentBlue);
+      transition: 250ms ease;
+      cursor: pointer;
+
+      &:hover {
+        color: #53cbff;
+      }
+    }
+  }
+
+  .projects-overview-wrapper {
+    margin-top: 60px;
   }
 }
