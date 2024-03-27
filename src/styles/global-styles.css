@@ -164,14 +164,16 @@ header {
 
 .projects-page-container {
   .back-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     margin: 30px 0;
     font-size: 18px;
     font-weight: 600;
     color: var(--text);
     text-transform: capitalize;
     cursor: pointer;
-    transition: 300ms ease;
+    transition: 250ms ease;
 
     &:hover {
       color: var(--accentBlue);
@@ -218,10 +220,4 @@ header {
     transform: translateX(0);
     opacity: 1;
   }
-}
-
-/* --- MOBILE RESPONSIVE --- */
-
-@media screen and (max-width: 450px) {
-  /* some class */
 }
