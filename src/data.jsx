@@ -10,6 +10,8 @@ import iconBoot from "./assets/icon-bootstrap.png";
 import iconA11y from "./assets/icon-accessibility.png";
 import iconGit from "./assets/icon-git.png";
 import iconApi from "./assets/icon-api.png";
+import iconVite from "./assets/icon-vite.png";
+import iconNext from "./assets/icon-nextjs.png";
 
 export const stack = [
   {
@@ -29,8 +31,16 @@ export const stack = [
     title: "React",
   },
   {
+    icon: iconNext,
+    title: "Next.js",
+  },
+  {
     icon: iconSvelte,
     title: "Svelte",
+  },
+  {
+    icon: iconVite,
+    title: "Vite",
   },
   {
     icon: iconSass,
@@ -72,7 +82,7 @@ export const projects = [
     screenshot: coffeeroastersScr,
     description:
       "This web app is a (mocked) coffee subscription app. Users can create and order a custom subscription plan with roast types, weight, delivery interval and so on. Showcasing: form handling/validation, dynamic routing/pages, state management, JSON data rendering/mapping, custom inputs and dynamic styling.",
-    stack: [iconReact, iconCss],
+    stack: [iconReact, iconCss, iconVite],
     deploy: "https://main--sunny-clafoutis-ffd604.netlify.app/",
     repo: "https://github.com/EdwinSch/react-coffeeroasters",
   },
@@ -82,7 +92,7 @@ export const projects = [
     screenshot: devjobsScr,
     description:
       "This web app is a (mocked) developer jobs listing site. Users can search for jobs by title, company, location or contract type and switch UI themes. Job details are rendered on dynamically created sub-pages. Showcasing: JSON data rendering/mapping, dynamic routing/pages, filters, state management and dynamic styling.",
-    stack: [iconReact, iconCss],
+    stack: [iconReact, iconCss, iconVite],
     deploy: "https://adorable-alpaca-19fac1.netlify.app/",
     repo: "https://github.com/EdwinSch/react-devjobs-finder",
   },
@@ -92,7 +102,7 @@ export const projects = [
     screenshot: cryptoScr,
     description:
       "This dashboard shows active crypto currency values. Data is fetched from the coincap.io API and the user can choose between light or dark theme. Showcasing: API handling, data/state handling and dynamic styling.",
-    stack: [iconReact, iconCss, iconApi],
+    stack: [iconReact, iconCss, iconApi, iconVite],
     deploy: "https://super-frangollo-a76201.netlify.app/",
     repo: "https://github.com/EdwinSch/react-crypto-dashboard",
   },
@@ -102,7 +112,7 @@ export const projects = [
     screenshot: scootScr,
     description:
       "This multi-page web app is the landing for a (mocked) scooter sharing company. Users can get information, read FAQ, see locations and job opportunities. The design is fully responsive. Showcasing: dynamic component re-use, page routing, state management and dynamic styling.",
-    stack: [iconReact, iconCss],
+    stack: [iconReact, iconCss, iconVite],
     deploy: "https://super-empanada-37af05.netlify.app/",
     repo: "https://github.com/EdwinSch/react-scoot-sharing-service",
   },
@@ -112,7 +122,7 @@ export const projects = [
     screenshot: restaurantFinderScr,
     description:
       "This React project shows (mocked) close by restaurants in a mobile-first/native style. Users can click on a result to toggle drawer style showing call options, search a restaurant by name or sort by either distance or rating of the shown restaurants. Showcasing: data mapping, components, filtering, sorting, dynamic and animated styling.",
-    stack: [iconReact, iconCss],
+    stack: [iconReact, iconCss, iconVite],
     deploy: "https://bright-macaron-7fa43e.netlify.app/",
     repo: "https://github.com/EdwinSch/react-restaurant-finder",
   },
@@ -122,7 +132,7 @@ export const projects = [
     screenshot: canicasScr,
     description:
       "Assortment overview for the Canicas Flavours Cava selecion 2023. Dynamic featueres are: toggle product description and filter by brand.",
-    stack: [iconReact, iconCss],
+    stack: [iconReact, iconCss, iconVite],
     deploy: "https://canicasflavours.com/",
     repo: "https://github.com/EdwinSch/canicas-flavours-2023",
   },
@@ -130,7 +140,8 @@ export const projects = [
     id: nanoid(),
     title: "Animated Chart",
     screenshot: chartScr,
-    description: "A little case study on animation and math calculations.",
+    description:
+      "A little case study on animation and math calculations in vanilla JavaScript.",
     stack: [iconHtml, iconCss, iconJs],
     deploy: "https://edwinsch.github.io/expenses-chart-component/",
     repo: "https://github.com/EdwinSch/expenses-chart-component",
@@ -141,7 +152,7 @@ export const projects = [
     screenshot: githubfinderScr,
     description:
       "This React project interacts with the GitHub API. Users can search GitHub users by name and view detailed info about personal info and repositories. Showcasing: API usage, components, page routing, context, reducer and dynamic styling.",
-    stack: [iconReact, iconCss, iconApi],
+    stack: [iconReact, iconCss, iconApi, iconVite],
     deploy: "https://sunny-entremet-05c3ac.netlify.app/",
     repo: "https://github.com/EdwinSch/react-github-finder",
   },
@@ -151,7 +162,7 @@ export const projects = [
     screenshot: trainScr,
     description:
       "This is a train/metro tickets purchase app for a (mocked) metro line. The user can select departure/destination stations and a date. After purchase the app will show a ticket with the route, price calculated by distance between stations and a QR code to enter the station. Additionally there is a responsive map of the route. Showcasing: form handling and validation, Math functions, state management, context usage, QR codes and dynamic styling with Tailwind CSS.",
-    stack: [iconReact, iconTailwind],
+    stack: [iconReact, iconTailwind, iconVite],
     deploy: "https://jazzy-heliotrope-9809dc.netlify.app/",
     repo: "https://github.com/EdwinSch/react-train-tickets-app",
   },
