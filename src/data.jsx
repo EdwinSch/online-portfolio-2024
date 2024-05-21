@@ -6,12 +6,12 @@ import iconReact from "./assets/icon-react.png";
 import iconSvelte from "./assets/icon-svelte.png";
 import iconSass from "./assets/icon-sass.png";
 import iconTailwind from "./assets/icon-tailwind.png";
-import iconBoot from "./assets/icon-bootstrap.png";
 import iconA11y from "./assets/icon-accessibility.png";
 import iconGit from "./assets/icon-git.png";
 import iconApi from "./assets/icon-api.png";
 import iconVite from "./assets/icon-vite.png";
 import iconNext from "./assets/icon-nextjs.png";
+import iconTs from "./assets/icon-typescript.png";
 
 export const stack = [
   {
@@ -27,6 +27,10 @@ export const stack = [
     title: "JavaScript",
   },
   {
+    icon: iconTs,
+    title: "TypeScript",
+  },
+  {
     icon: iconReact,
     title: "React",
   },
@@ -35,24 +39,20 @@ export const stack = [
     title: "Next.js",
   },
   {
-    icon: iconSvelte,
-    title: "Svelte",
-  },
-  {
     icon: iconVite,
     title: "Vite",
   },
   {
-    icon: iconSass,
-    title: "SASS",
+    icon: iconSvelte,
+    title: "Svelte",
   },
   {
     icon: iconTailwind,
     title: "Tailwind",
   },
   {
-    icon: iconBoot,
-    title: "Bootstrap",
+    icon: iconSass,
+    title: "SASS",
   },
   {
     icon: iconA11y,
