@@ -3,8 +3,6 @@ import iconHtml from "./assets/icon-html.png";
 import iconCss from "./assets/icon-css.png";
 import iconJs from "./assets/icon-javascript.png";
 import iconReact from "./assets/icon-react.png";
-import iconSvelte from "./assets/icon-svelte.png";
-import iconSass from "./assets/icon-sass.png";
 import iconTailwind from "./assets/icon-tailwind.png";
 import iconA11y from "./assets/icon-accessibility.png";
 import iconGit from "./assets/icon-git.png";
@@ -39,20 +37,12 @@ export const stack = [
     title: "Next.js",
   },
   {
-    icon: iconVite,
-    title: "Vite",
-  },
-  {
-    icon: iconSvelte,
-    title: "Svelte",
-  },
-  {
     icon: iconTailwind,
     title: "Tailwind",
   },
   {
-    icon: iconSass,
-    title: "SASS",
+    icon: iconVite,
+    title: "Vite",
   },
   {
     icon: iconA11y,
