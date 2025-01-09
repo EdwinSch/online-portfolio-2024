@@ -10,6 +10,7 @@ import iconApi from "./assets/icon-api.png";
 import iconVite from "./assets/icon-vite.png";
 import iconNext from "./assets/icon-nextjs.png";
 import iconTs from "./assets/icon-typescript.png";
+import iconMongoDb from "./assets/icon-mongodb.png";
 
 export const stack = [
   {
@@ -45,6 +46,10 @@ export const stack = [
     title: "Vite",
   },
   {
+    icon: iconMongoDb,
+    title: "Mongo DB",
+  },
+  {
     icon: iconA11y,
     title: "Accessibility",
   },
@@ -64,6 +69,7 @@ import chartScr from "./assets/screenshots/chart.jpg";
 import githubfinderScr from "./assets/screenshots/githubfinder.jpg";
 import trainScr from "./assets/screenshots/train.jpg";
 import passwordScr from "./assets/screenshots/password-generator.jpg";
+import propertyPulseScr from "./assets/screenshots/property-pulse.jpg";
 
 export const projects = [
   {
@@ -85,6 +91,16 @@ export const projects = [
     stack: [iconReact, iconCss, iconVite],
     deploy: "https://adorable-alpaca-19fac1.netlify.app/",
     repo: "https://github.com/EdwinSch/react-devjobs-finder",
+  },
+  {
+    id: nanoid(),
+    title: "Property Pulse",
+    screenshot: propertyPulseScr,
+    description:
+      "Property Pulse is a full-stack web app for a mocked home rental service, build as part of a Next JS course. Rental users can search for available rental properties, bookmark, share properties and send a message to property owners. Owner users add new properties or edit existing listings. Showcasing: Responsive application design, User authentication with Google & Next Auth, User authorization, Route protection, CRUD, server actions, external image hosting and much more.",
+    stack: [iconNext, iconTailwind, iconMongoDb],
+    deploy: "https://property-pulse-two-nu.vercel.app/",
+    repo: "https://github.com/EdwinSch/next-property-pulse",
   },
   {
     id: nanoid(),
